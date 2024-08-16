@@ -101,6 +101,10 @@ in {
           from = defaultPort;
           to = defaultPort;
         }
+        {
+          from = 8191;
+          to = 8191;
+        }
       ];
     };
 
